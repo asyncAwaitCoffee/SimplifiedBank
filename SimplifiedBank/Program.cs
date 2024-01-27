@@ -26,6 +26,8 @@
              *  transfer money from one client to another
              *  check client's status
              *  check all client's status
+             *  exit
+             *  clear console output
              */
             while (!exit)
             {
@@ -33,6 +35,7 @@
                 Console.WriteLine("Type 2 to check client's status.");
                 Console.WriteLine("Type 3 to check all client's status.");
                 Console.WriteLine("Type 0 to exit.");
+                Console.WriteLine("Type - to clear console output.");
                 Console.Write("What do you want to do today? ");
                 typed = Console.ReadLine();
 
